@@ -10,3 +10,4 @@ chmod 550 public/mage
 chmod o+w public/var public/var/.htaccess public/app/etc
 chmod -R o+w public/media
 chmod +x reset_permissions.sh
+chmod +x clear_cache.sh
