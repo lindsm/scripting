@@ -3,7 +3,7 @@ set nowrap
 set number
 set ignorecase
 set modelines=0
-nnoremap <SPACE><Nop>
+nnoremap <SPACE> <Nop>
 nnoremap <silent><F5> :!clear;python %<CR>
 syntax enable
 set background=dark
