@@ -63,4 +63,3 @@ command! -range=% FormatXML <line1>,<line2>call DoFormatXML()
 nmap <silent> <leader>x :%FormatXML<CR>
 nmap <silent> <leader>n :NERDTree<CR>
 vmap <silent> <leader>x :FormatXML<CR>
-</PrettyXML>
