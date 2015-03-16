@@ -4,6 +4,9 @@ set number
 set ignorecase
 set modelines=0
 nnoremap <SPACE> <Nop>
+set shiftwidth=4 
+set autoindent
+set smartindent
 nnoremap <silent><F5> :!clear;python %<CR>
 syntax enable
 set background=dark
@@ -60,6 +63,5 @@ function! DoFormatXML() range
 endfunction
 command! -range=% FormatXML <line1>,<line2>call DoFormatXML()
 
-nmap <silent> <leader>x :%FormatXML<CR>
 nmap <silent> <leader>n :NERDTree<CR>
 vmap <silent> <leader>x :FormatXML<CR>
